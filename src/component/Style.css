@@ -1,0 +1,122 @@
+@font-face {
+    font-family: rubik;
+    src: url(./images/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(./images/Ubuntu-Bold.ttf);
+}
+.foot{
+    /* color: blueviolet; */
+    background-color: rgb(34, 42, 34) ;
+    justify-content: center;
+
+}
+.fo{
+    /* margin-left: 1000px; */
+    padding-left: 230px;
+    padding-bottom: 50px;
+}
+.cad1{
+    background: rgba(7, 142, 233, 0.10) !important; 
+    border-radius: 0px 40px 0px 0px!important;
+    border: none !important;
+    text-align: center !important;
+    height: 15rem!important;
+    width: 22rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+}
+.cad2{
+    background: rgba(242, 0, 121, 0.15)!important;
+    border-radius: 0px 40px 0px 0px!important;
+    border: none !important;
+    text-align: center !important;
+    height: 15rem!important;
+    width: 22rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    
+
+}
+.cad3{
+    background: rgba(195, 195, 195, 0.10)!important;
+    border-radius: 0px 40px 0px 0px!important;
+    border: none !important;
+    text-align: center !important;
+    width: 22rem;
+    height: 15rem!important;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    
+
+}
+span{
+    color: #80CE96;
+    font-family: Rubik;
+    font-size: 14px;
+
+}
+p{
+    color: #000;
+/* font-family: Rubik; */
+font-size: 14px;
+padding-left: 16px;
+
+}
+.text{
+   font-family: rubik!important;
+   margin-left: -16px;
+}
+.head{
+    font-family: ubuntu;
+}
+.text-m1, .text-m3{
+    color: #80CE96!important;
+   font-family: ubuntu!important;
+   font-size: 22px!important;
+}
+.text-m2{
+    color: rgba(0, 103, 245, 0.75)!important;
+    font-family: ubuntu !important;
+    font-size: 22px!important;
+
+}
+.textb{
+    font-family: rubik!important;
+    font-size: 16px!important;
+
+}
+.text-m12{
+    color: #80CE96!important;
+   font-family: ubuntu!important;
+   font-size: 30px!important;
+}
+.ju{
+    font-family: ubuntu!important;
+   font-size: 30px!important;
+
+}
+.nav{
+    margin-left: 450px;
+    /* justify-content: space-around!important; */
+
+}
+.nav:hover{
+    color: #80CE96!important;
+    
+}
+.tb{
+    margin-left: -10px;
+}
+.wh{
+    margin-left: -370px!important;
+    
+}
+@media screen and (max-width: 480px){
+     
+}
+
