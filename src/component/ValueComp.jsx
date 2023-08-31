@@ -6,7 +6,7 @@ import pic2 from './images/pic2.png'; // Tell webpack this JS file uses this ima
 // import '../src/App.css';
 function ValueComp() {
   return (
-    <Container>
+    <Container className='val'>
       <Row className='mt-5'>
        <Col xs={12} md={6}>
          <Image src={pic2} fluid 

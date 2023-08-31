@@ -100,23 +100,61 @@ padding-left: 16px;
    font-size: 30px!important;
 
 }
-.nav{
+/* .nav{
     margin-left: 450px;
-    /* justify-content: space-around!important; */
+    justify-content: space-around!important;
 
-}
+} */
 .nav:hover{
     color: #80CE96!important;
     
 }
 .tb{
-    margin-left: -10px;
+    margin-left: -10px!important;
 }
 .wh{
     margin-left: -370px!important;
     
 }
-@media screen and (max-width: 480px){
-     
+@media screen and (min-width: 414px){
+    .nav{
+        margin-left: 450px;
+        /* justify-content: space-around!important; */
+    
+    }
+    
+}
+@media screen and (max-width: 415px){
+    .frame{
+        width: 3rem;
+    }
+    .jum{
+        margin-top: -110px!important;
+        text-align: center;
+    }
+    .val{
+        text-align: center;
+    }
+    .cad1, .cad2,.cad3{
+        width: 22rem;
+    }
+    .cas{
+        width: 25rem!important;
+    }
+    .pl{
+        padding-left: 22px;
+    }
+    .fo{
+        margin-left: -200px!important;
+    }
+    
+}
+@media screen and (min-width: 414px) and (max-width: 420px){
+    .cad1, .cad2,.cad3{
+        width: 24rem;
+    }
+    .pl{
+        padding-left: 37px;
+    }
 }
 

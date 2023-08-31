@@ -25,8 +25,8 @@ function BlogComp() {
       
     >
       <Tab eventKey="home" title="All">
-      <Row>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+      <Row className='pl'>
+        <Col className='mt-5 '><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b2} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -38,7 +38,7 @@ function BlogComp() {
                 
             </Card.Body>
         </Card></Col>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='mt-5'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b3} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -49,7 +49,7 @@ function BlogComp() {
                 
             </Card.Body>
         </Card></Col>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='mt-5'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b5} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -61,7 +61,7 @@ function BlogComp() {
             </Card.Body>
         </Card></Col>
         <Col className='mt-5'>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b1} />
             <Card.Body>
               <span className='d-flex'>WOMEN'S HEALTH   <p>January 26, 2019</p></span>
@@ -76,7 +76,7 @@ function BlogComp() {
             </Card.Body>
           </Card>
           </Col>
-          <Col className='mt-5 wh'><Card style={{ width: '18rem' }}>
+          <Col className='mt-5 wh d-none d-sm-block'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b4} />
           
             <Card.Body>
@@ -93,9 +93,9 @@ function BlogComp() {
         </Row>
       </Tab>
       <Tab eventKey="profile" title="Women's Health">
-      <Row className=''>
+      <Row className='pl'>
         <Col  className='mt-5'>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b1} />
             <Card.Body>
               <span className='d-flex'>WOMEN'S HEALTH   <p>January 26, 2019</p></span>
@@ -110,7 +110,7 @@ function BlogComp() {
             </Card.Body>
           </Card>
           </Col>
-          <Col className='mt-5 wh'><Card style={{ width: '18rem' }}>
+          <Col className='mt-5 wh d-none d-sm-block'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b4} />
           
             <Card.Body>
@@ -128,8 +128,8 @@ function BlogComp() {
        
       </Tab>
       <Tab eventKey="contact" title="Sexual Health" >
-      <Row>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+      <Row className='pl'>
+        <Col className='mt-5'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b2} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -141,7 +141,7 @@ function BlogComp() {
                 
             </Card.Body>
         </Card></Col>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='mt-5'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b3} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -152,7 +152,7 @@ function BlogComp() {
                 
             </Card.Body>
         </Card></Col>
-        <Col className='mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='mt-5'><Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={b5} />
             <Card.Body>
             <span className='d-flex'>SEXUAL HEALTH   <p>March 28, 2021</p></span>
@@ -167,9 +167,9 @@ function BlogComp() {
         </Row>
         
       </Tab>
-      <Tab eventKey="contact" title="Babycare" disabled>
+      {/* <Tab className='d-none d-sm-block' eventKey="contact" title="Babycare" disabled >
         
-      </Tab>
+      </Tab> */}
     </Tabs>
     </Container>
   );

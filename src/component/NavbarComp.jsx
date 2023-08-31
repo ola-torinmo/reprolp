@@ -33,7 +33,7 @@ function NavbarComp() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav xs={2}>
+          <Nav className='frame'>
           <Image src={Frame6} fluid/>
           </Nav>
         </Navbar.Collapse>

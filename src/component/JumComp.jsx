@@ -6,8 +6,8 @@ import pic1 from './images/pic1.png'; // Tell webpack this JS file uses this ima
 // import '../src/App.css';
 function JumComp() {
   return (
-    <Container>
-      <Row className='mt-5'>
+    <Container className='jum'>
+      <Row className='mt-5 '>
         <Col xs={12} md={6} className='mt-5'>
           <p className='mt-5 textb'>
           <h2 className='pb-4 ju'>
